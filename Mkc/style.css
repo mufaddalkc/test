@@ -1,0 +1,537 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Global Footprints card: start */
+
+.global-footprints {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  padding: 28px;
+  width: 547px;
+  height: 202px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #ffe9e0;
+  box-shadow: 0px 3px 6px 0px rgba(206, 211, 218, 0.45);
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(235, 88, 22, 0.14) 100%
+  );
+}
+
+.card-header .card-divider {
+  width: 4px;
+  height: 32px;
+  flex-shrink: 0;
+  background: #eb5816;
+}
+
+.card-header .card-title {
+  color: #333;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.card-item-group {
+  margin-top: 55px;
+  display: flex;
+  gap: 96px;
+}
+
+.card-item-group .card-item {
+  /* display: flex;
+  gap: 8px;
+  flex-direction: column; */
+}
+
+.card-item-group .card-item-title {
+  color: #333;
+  /* leading-trim: both; */
+  /* text-edge: cap; */
+  font-family: "Proxima Nova";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-bottom: 8px;
+}
+
+.card-item-group .card-item-subtitle {
+  color: #666;
+  /* leading-trim: both; */
+  /* text-edge: cap; */
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.global-footprint-aside {
+  width: 580px;
+  color: #333;
+  font-family: "Proxima Nova";
+  /* font-size: 32px; */
+  font-weight: 400;
+  line-height: 20px;
+
+  .global-footprint-aside-title {
+    font-size: 24px;
+  }
+
+  .global-footprint-aside-text {
+    margin-top: 20px;
+  }
+}
+/* Global Footprints card: end */
+
+/* Hadder gallery start */
+
+.top-flex {
+  width: 100%;
+  height: 139px;
+}
+
+.top-flex-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 54px;
+}
+
+/* Hadder gallery end */
+
+.row1, .row2, .row3 {
+  display: flex;
+  gap: 15px;
+}
+
+.imgs-container {
+}
+
+.imgs-container .img-container {
+  width: 238px;
+  height: 110px;
+  flex-shrink: 0;
+  border-radius: 110px;
+  border: 1px solid var(--Tonal-pallet-Primary-Daybreak---900, #00218c);
+  opacity: 0.7;
+  background: #fff;
+  display: flex;
+
+  img{
+    margin: auto;
+  }
+}
+
+/* Our Services start */
+.services {
+  margin: 0 auto;
+  width: 1320px;
+  height: 664px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff;
+  /* 1 dp */
+  box-shadow: 0px 1px 3px 0px rgba(206, 211, 218, 0.8);
+}
+.services-title {
+  color: #333;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Proxima Nova";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* margin-left: 24px; */
+  padding-left: 24px;
+  line-height: 1.5;
+}
+
+.services-subtitle {
+  color: #666;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* margin-left: 24px; */
+  padding-left: 24px;
+}
+
+.hero {
+  display: flex;
+  margin-top: 24px;
+}
+
+.services-nav {
+  width: 317px;
+  height: 109px;
+  flex-shrink: 0;
+  margin-left: 37px;
+}
+
+.curent {
+  border-radius: 14px;
+  background: #f0f8ff;
+  font-weight: 600;
+}
+
+.services .navsection {
+  display: flex;
+  width: 317px;
+  height: 109px;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 10px;
+}
+.services .services-aside {
+  width: 974px;
+  height: 509px;
+  /* flex-shrink: 0; */
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.aside-services-title {
+  color: #0041d9;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.aside-services-body {
+  padding-left: 24px;
+  color: #6d6d6d;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 131.25% */
+  padding-top: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.navsection img {
+  width: 50px;
+}
+
+.aside-imgs {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  margin: 24px;
+}
+
+.aside-imgs img {
+  width: 400px;
+  height: 353px;
+  flex-shrink: 0;
+}
+/* Our Services end */
+
+/* Uniquely Altimetrik Start */
+
+.uni-title {
+  margin-top: 40px;
+  width: 319px;
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-left: 24px;
+}
+
+.uniquely-container {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 5rem;
+  margin-left: 24px;
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 212.5% */
+}
+
+.uniquely-container .uniq-side1 {
+  width: 318px;
+}
+
+.uniq-lists {
+  /* width: 300px; */
+  height: 200px;
+}
+
+.uniq-lists .uniq-ul {
+  margin-left: 30px;
+}
+.uniq-lists .uniq-lists-heading {
+  color: #e65a14;
+}
+
+/* Uniquely Altimetrik end */
+
+/*  <!-- Campus start --> */
+
+.campus-container {
+  background: url("sectionimg/campusbg.png");
+  background-size: cover;
+  width: 100%;
+  height: 665px;
+  position: relative;
+}
+
+.campus-container .background-img h1 {
+}
+
+.campus-container .background-img {
+  max-width: fit-content;
+  margin: 0 auto;
+
+  img {
+    margin: 250px auto;
+    width: 131.871px;
+    height: 132px;
+    position: relative;
+  }
+
+  .bacimg-text {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 130% */
+  }
+}
+
+.campus-container .campus-sub-container {
+  width: 950px;
+  height: 263px;
+  border-radius: 16px;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: -65px;
+  left: 50%;
+  transform: translate(-50%, 4%);
+  box-shadow: 0px 7px 15px 0px rgba(206, 211, 218, 0.8);
+}
+
+.campus-title {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Proxima Nova";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 81.25% */
+}
+
+.campus-subtitle {
+  color: #828282;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+}
+
+.btn {
+  display: inline-flex;
+  height: 40px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: 1px solid #e65a14;
+  color: #e65a14;
+  background: white;
+}
+
+/*  <!-- Campus end --> */
+
+/* Altimetrik Gallery */
+
+.gallery {
+  /* max-width: 1440px; */
+
+  .gallery-title {
+    width: 290px;
+    color: #333;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Proxima Nova";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    margin-top: 200px;
+    margin-left: 168px;
+  }
+
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 168px;
+    width: 82%;
+
+    img {
+      width: 426px;
+      /* height: px; */
+      flex-shrink: 0;
+      border-radius: 6px;
+    }
+
+    .top {
+      position: relative;
+    }
+
+    .overflow {
+      position: relative;
+    }
+
+    .overflow .overflow-text {
+      position: absolute;
+      width: 100%;
+      height: 81px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      opacity: 0.7;
+      background: #001466;
+
+      bottom: 4px;
+
+      p {
+        top: 50%;
+        text-align: center;
+        color: white;
+        opacity: 1;
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: "Proxima Nova";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        z-index: 100;
+      }
+    }
+  }
+}
+
+/* Footer start */
+
+.footer {
+  margin-top: 15px;
+  background-color: #eb5816;
+  /* width: 100%; */
+  height: 200px;
+  flex-shrink: 0;
+}
+
+.footer .footer-container {
+  line-height: 2.6;
+
+  .txt-1 {
+    color: #fff;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 24px;
+    padding-top: 34px;
+    padding-bottom: 10px;
+  }
+
+  .txt-2 {
+    color: #fff;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 25px;
+    padding-bottom: 30px;
+  }
+}
+
+.footer .footer-container .btn {
+  margin-left: 24px;
+  display: inline-flex;
+  height: 40px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: 1px solid #e65a14;
+  background: #fff;
+  color: #e65a14;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Footer end */
